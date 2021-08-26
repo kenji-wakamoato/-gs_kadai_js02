@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>Site Bookmarker</title>
+
+    <!-- link the CSS file here -->
+    <link rel="stylesheet" type="text/css" href="./css/bookmark.css">
+    
+
+</head>
+
+<body>
+
+    <h1>記事のピックアップ機能</h1>
+
+    <div class="container">
+        <!-- フォーム部分 -->
+        <form class="form" action="#">
+            <div class="input-field">
+                <!-- labelタグ -->
+                <label for="site_name">タイトル</label>     
+                <input name="site_name" type="text" placeholder="タイトルを記入してくだい">
+            </div>
+
+            <div class="input-field">
+                <label for="url">URL</label>
+                <input name="url" type="text" placeholder="ここにURLを貼り付けてください">
+            </div>
+
+            <button class="save_button">保存</button>
+        </form>
+
+        <!--    -->
+        <h2>保存された記事の一覧</h2>
+
+
+        <div class="bookmarks"></div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- jsの読み込み    -->
+    <script src="./js/bookmark.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+   
+    
+
+
+
+
+
+    </script>
+</body>
+
+</html>
